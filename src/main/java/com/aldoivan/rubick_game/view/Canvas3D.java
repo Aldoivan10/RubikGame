@@ -1,4 +1,4 @@
-package com.aldoivan.rubickgame.view;
+package com.aldoivan.rubick_game.view;
 
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;

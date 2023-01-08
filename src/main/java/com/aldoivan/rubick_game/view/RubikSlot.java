@@ -1,4 +1,4 @@
-package com.aldoivan.rubickgame.view;
+package com.aldoivan.rubick_game.view;
 
 import javafx.animation.FillTransition;
 import javafx.scene.layout.Pane;

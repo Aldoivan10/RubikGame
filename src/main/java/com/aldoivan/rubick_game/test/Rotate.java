@@ -1,4 +1,4 @@
-package com.aldoivan.rubickgame.test;
+package com.aldoivan.rubick_game.test;
 
 public class Rotate
 {

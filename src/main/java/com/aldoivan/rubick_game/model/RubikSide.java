@@ -1,4 +1,4 @@
-package com.aldoivan.rubickgame.model;
+package com.aldoivan.rubick_game.model;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

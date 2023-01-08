@@ -1,6 +1,6 @@
-package com.aldoivan.rubickgame.util;
+package com.aldoivan.rubick_game.util;
 
-import com.aldoivan.rubickgame.model.RubikSide;
+import com.aldoivan.rubick_game.model.RubikSide;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;

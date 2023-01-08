@@ -1,7 +1,7 @@
-package com.aldoivan.rubickgame.test;
+package com.aldoivan.rubick_game.test;
 
-import com.aldoivan.rubickgame.model.Cube;
-import com.aldoivan.rubickgame.view.Canvas3D;
+import com.aldoivan.rubick_game.model.Cube;
+import com.aldoivan.rubick_game.view.Canvas3D;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;

@@ -1,7 +1,7 @@
-package com.aldoivan.rubickgame.model;
+package com.aldoivan.rubick_game.model;
 
-import com.aldoivan.rubickgame.exception.RubikException;
-import com.aldoivan.rubickgame.util.RubikUtil;
+import com.aldoivan.rubick_game.exception.RubikException;
+import com.aldoivan.rubick_game.util.RubikUtil;
 
 import java.util.Arrays;
 

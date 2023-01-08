@@ -1,0 +1,57 @@
+.ikonli-font-icon
+{
+    -fx-icon-color: WHITE;
+}
+
+.button-pad
+{
+    -fx-background-color: -jfx-primary-color;
+    -fx-text-fill: WHITE;
+}
+
+.btn-play
+{
+    -fx-background-color: -green-A700;
+    -fx-text-fill: WHITE;
+}
+
+.btn-reset
+{
+    -fx-background-color: -red-A400;
+    -fx-text-fill: WHITE;
+}
+
+.btn-scramble
+{
+    -fx-background-color: -orange-A700;
+    -fx-text-fill: WHITE;
+}
+
+.btn-timer
+{
+    -jfx-toggle-color: -indigo-A700;
+    -jfx-untoggle-color: -grey-100;
+    -fx-background-color: -grey-100;
+}
+
+.btn-timer .ikonli-font-icon
+{
+    -fx-icon-color: BLACK;
+}
+
+.btn-timer:selected .ikonli-font-icon
+{
+    -fx-icon-color: WHITE;
+}
+
+.btn-timer .jfx-rippler
+{
+    -jfx-rippler-fill: WHITE;
+}
+
+.lbl-timer
+{
+    -fx-font-weight: BOLD;
+    -fx-font-size: 20;
+    -fx-font-family: "Digital dream Fat";
+}

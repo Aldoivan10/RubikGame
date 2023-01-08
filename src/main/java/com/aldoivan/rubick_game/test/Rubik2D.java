@@ -1,18 +1,17 @@
-package com.aldoivan.rubickgame.test;
+package com.aldoivan.rubick_game.test;
 
-import com.aldoivan.rubickgame.view.MainFrame;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Test extends Application
+public class Rubik2D extends Application
 {
     @Override
     public void start(Stage stage) throws IOException
     {
-        Scene scene = new Scene(new CubeTest(), 800, 600);
+        Scene scene = new Scene(null, 800, 600);
         stage.setTitle("Rubik");
         stage.setScene(scene);
         stage.show();

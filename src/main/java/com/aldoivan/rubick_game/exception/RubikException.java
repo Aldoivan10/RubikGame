@@ -1,4 +1,4 @@
-package com.aldoivan.rubickgame.exception;
+package com.aldoivan.rubick_game.exception;
 
 public class RubikException extends Exception
 {

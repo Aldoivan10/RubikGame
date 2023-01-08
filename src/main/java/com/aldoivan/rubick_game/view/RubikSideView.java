@@ -1,9 +1,8 @@
-package com.aldoivan.rubickgame.view;
+package com.aldoivan.rubick_game.view;
 
-import com.aldoivan.rubickgame.model.RubikSide;
-import com.aldoivan.rubickgame.util.RubikUtil;
+import com.aldoivan.rubick_game.model.RubikSide;
+import com.aldoivan.rubick_game.util.RubikUtil;
 import javafx.animation.FillTransition;
-import javafx.scene.Group;
 import javafx.scene.paint.Color;
 import javafx.scene.layout.*;
 

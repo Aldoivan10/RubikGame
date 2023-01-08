@@ -1,7 +1,7 @@
-package com.aldoivan.rubickgame.controller;
+package com.aldoivan.rubick_game.controller;
 
-import com.aldoivan.rubickgame.model.Rubik;
-import com.aldoivan.rubickgame.util.RubikMoves;
+import com.aldoivan.rubick_game.model.Rubik;
+import com.aldoivan.rubick_game.util.RubikMoves;
 
 import java.util.ArrayList;
 import java.util.List;

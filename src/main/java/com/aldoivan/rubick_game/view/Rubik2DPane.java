@@ -1,10 +1,10 @@
-package com.aldoivan.rubickgame.view;
+package com.aldoivan.rubick_game.view;
 
-import com.aldoivan.rubickgame.controller.RubikController;
-import com.aldoivan.rubickgame.model.Rubik;
-import com.aldoivan.rubickgame.model.RubikSide;
-import com.aldoivan.rubickgame.util.RubikUtil;
+import com.aldoivan.rubick_game.controller.RubikController;
+import com.aldoivan.rubick_game.model.Rubik;
+import com.aldoivan.rubick_game.util.RubikUtil;
 import javafx.animation.ParallelTransition;
+import javafx.geometry.Insets;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 
@@ -63,6 +63,7 @@ public class Rubik2DPane extends GridPane
             this.transition.play();
         });
 
+        this.setPadding(new Insets(15));
         this.controller = controller;
     }
 

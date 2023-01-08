@@ -1,7 +1,7 @@
-package com.aldoivan.rubickgame.util;
+package com.aldoivan.rubick_game.util;
 
-import com.aldoivan.rubickgame.model.Rubik;
-import com.aldoivan.rubickgame.model.RubikSide;
+import com.aldoivan.rubick_game.model.Rubik;
+import com.aldoivan.rubick_game.model.RubikSide;
 
 import java.util.function.Function;
 import java.util.stream.IntStream;
@@ -113,17 +113,17 @@ public class RubikMoves
 
         if(clockwise)
         {
-            top.setRow(num1, colLeft);
-            right.setCol(num2, rowTop);
-            bot.setRow(num2, colRight);
+            top.setRow(num1, reverseArray(colLeft));
+            bot.setRow(num2, reverseArray(colRight));
             left.setCol(num1, rowBot);
+            right.setCol(num2, rowTop);
         }
         else
         {
-            top.setRow(num1, colRight);
-            right.setCol(num2, rowBot);
             bot.setRow(num2, colLeft);
-            left.setCol(num1, rowTop);
+            top.setRow(num1, colRight);
+            left.setCol(num1, reverseArray(rowTop));
+            right.setCol(num2, reverseArray(rowBot));
         }
     }
 

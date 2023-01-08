@@ -1,6 +1,6 @@
-package com.aldoivan.rubickgame.model;
+package com.aldoivan.rubick_game.model;
 
-import com.aldoivan.rubickgame.App;
+import com.aldoivan.rubick_game.App;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
